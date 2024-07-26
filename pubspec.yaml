@@ -1,0 +1,31 @@
+name: Galinz
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1  # Menambahkan dependensi flutter_launcher_icons
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/LogoAppbar.svg
+    - lib/assets/LogoAboutUs.svg
+    - lib/assets/app_icon.png  # Path ke icon yang baru
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "lib/assets/app_icon.png"  # Path ke icon yang akan digunakan
